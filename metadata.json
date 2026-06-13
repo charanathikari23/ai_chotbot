@@ -1,0 +1,6 @@
+{
+  "name": "AI Prompt Studio",
+  "description": "A beautifully polished, real-time AI Chatroom for intuitive assistant interactions and preset roleplays powered securely by Gemini.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
