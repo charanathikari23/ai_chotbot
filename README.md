@@ -1,61 +1,61 @@
-# Cybernetic Neural Chat
+# Simple Chatbot
 
-A high-performance, dark-themed chat interface with a futuristic cybernetic aesthetic. Built with React, Vite, and styled with precision-mapped Tailwind CSS utility classes.
-
----
-
-## Aesthetics and Design Concept
-
-This application abandons typical boring chat designs for a custom, dark space environment:
-- **Futuristic Glowing Details:** Low-contrast grid patterns and subtle holographic scanning overlays.
-- **Atmospheric Backgrounds:** Deep primary backgrounds coupled with dim purple and teal blur layers.
-- **Utmost Typographic Contrast:** Balanced weight structures in font scaling paired with code-oriented system monospace details.
+A clean, minimalist chat interface built with React and Vite, styled with Tailwind CSS.
 
 ---
 
-## Core Mechanics
+## Design and Typography
 
-- **Zero-Bloat Chat Flow:** A streamlined chat viewport designed for distraction-free interactions.
-- **Transient Caching:** Synchronized browser state hooks that save your active conversation history inside local storage.
-- **Interactive Suggestions:** Quick benchmark buttons to test connectivity with the model immediately.
-- **Secure Endpoint Handshakes:** Independent backend routing to shield parameters from browser access.
-- **Floating Copier Utility:** Hover metrics with clipboard integration for instant reply transfers.
+This application provides a dark-themed, uncluttered environment for conversations:
+- **Clean Layout:** Designed to keep your focus entirely on the chat stream, removing sidebars and unnecessary menus.
+- **Accented Theme:** Subtle dark indigo backgrounds and layouts.
+- **Readable Typography:** Standard sans-serif fonts for clear reading, paired with subtle monospace metrics for status details.
 
 ---
 
-## Stack Architecture
+## Core Features
+
+- **Streamlined Workflow:** A fast-loading, single-screen conversation loop.
+- **Local Storage Persian:** Keeps your communication history saved locally in the browser.
+- **Quick Prompts:** Actionable preloaded suggestions to test connectivity instantly.
+- **Secure Integration:** Server-side proxy calls that securely protect key values from client-side exposure.
+- **Copy Utility:** Quick-action buttons to copy messages to the clipboard with one click.
+
+---
+
+## Technology Stack
 
 - **UI Environment:** React 19 and Vite.
-- **Core Orchestrator:** Express.js rendering and proxy routing.
-- **Engine Motion:** Framer Motion (for smooth component transitions and feedback scales).
-- **Styling Architecture:** Tailwind CSS v4.
-- **UI Icons:** Lucide React icons.
+- **Server:** Express.js proxying requests.
+- **Animations:** Framer Motion for UI state transitions.
+- **CSS:** Tailwind CSS.
+- **Icons:** Lucide React.
 
 ---
 
-## Installation and Local Development
+## Installation and Setup
 
-Run the chat container environment locally:
+Run the application locally:
 
 ### 1. Variables Configuration
-Clone the environment template into an active local file:
+Copy the configuration template:
 ```bash
 cp .env.example .env
 ```
-Provide your API key inside `.env`:
+Add your API key inside `.env`:
 ```env
 GEMINI_API_KEY=your-api-key-here
 ```
 
-### 2. Package Hydration
-Install all standard workspace dependencies:
+### 2. Dependency Setup
+Install the project packages:
 ```bash
 npm install
 ```
 
-### 3. Ignition
+### 3. Startup
 Launch the client development server and the backend proxy simultaneously:
 ```bash
 npm run dev
 ```
-Navigate to http://localhost:3000 inside your preferred browser.
+Open http://localhost:3000 inside your web browser.
