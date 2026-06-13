@@ -157,7 +157,7 @@ export default function ChatPlayground() {
                     onClick={() => setInputMessage(suggestion)}
                     className="text-[11px] font-sans text-zinc-400 bg-zinc-900/60 hover:bg-zinc-850/80 border border-zinc-800/80 hover:border-indigo-500/30 transition-all px-3 py-2 rounded-lg text-left cursor-pointer"
                   >
-                    ⚡ {suggestion}
+                    {suggestion}
                   </button>
                 ))}
               </div>
